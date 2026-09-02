@@ -10,14 +10,6 @@
 
 ## Usage
 
-
-
----
-
-**Made with ❤️ by [Scalified](http://www.scalified.com)**
-
-# Examples
-
 ```yaml
 defaultLabels:
   app.kubernetes.io/part-of: application
@@ -52,3 +44,7 @@ templates:
 | `defaultLabels` | Applies labels to every resource unless the resource defines the label. | `{}`    |
 | `resources`     | Defines Kubernetes resources that Helm renders and deploys.             | `[]`    |
 | `templates`     | Defines manifest templates rendered with Helm's `tpl` function.         | `[]`    |
+
+---
+
+**Made with ❤️ by [Scalified](http://www.scalified.com)**
