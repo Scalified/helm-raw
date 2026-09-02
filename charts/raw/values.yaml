@@ -1,0 +1,30 @@
+# Applies labels to every resource unless the resource defines the same label.
+# defaultLabels:
+#   app.kubernetes.io/part-of: application
+#   environment: development
+defaultLabels: {}
+
+# Defines Kubernetes resources that Helm renders and deploys.
+# resources:
+#   - apiVersion: v1
+#     kind: Service
+#     metadata:
+#       name: application
+#     spec:
+#       selector:
+#         app: application
+#       ports:
+#         - port: 80
+#           targetPort: http
+resources: []
+
+# Defines manifest templates rendered with Helm's tpl function.
+# templates:
+#   - |
+#     apiVersion: v1
+#     kind: ConfigMap
+#     metadata:
+#       name: {{ .Release.Name }}-config
+#     data:
+#       environment: {{ .Release.Namespace }}
+templates: []
