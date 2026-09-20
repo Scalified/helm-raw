@@ -1,3 +1,26 @@
 apiVersion: v1
 entries:
   raw:
+  - annotations:
+      artifacthub.io/category: integration-delivery
+      artifacthub.io/signKey: |
+        fingerprint: 687D9BE990493C58C0CFBEB65A065879383D7E21
+        url: https://keybase.io/scalified/pgp_keys.asc
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-09-20T13:43:22.78234614Z"
+    description: RAW Helm Chart
+    digest: 56ccff31fcce90e7715fd30081e091f20cc9ca98e834e3bb288c58da5230e81c
+    home: https://github.com/Scalified/helm-raw
+    icon: https://scalified.github.io/helm-raw/icon.png
+    keywords:
+    - raw
+    - templates
+    - resources
+    kubeVersion: '>=1.13.0'
+    name: raw
+    type: application
+    urls:
+    - https://github.com/Scalified/helm-raw/releases/download/raw-1.0.0/raw-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-09-20T13:43:22.782351059Z"
